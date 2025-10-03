@@ -59,12 +59,20 @@ footer {
 .footer-list {
   display: flex;
   flex-direction: row;
+} */
+
+.over-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
 }
 .footer-paragraph {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   font-size: 1rem;
+  flex-direction: column;
 }
 
 .section-one {
@@ -210,6 +218,7 @@ h1 {
 
 .workspace-image {
   width: 200px;
+  height: 100px;
   object-fit: cover;
   margin-top: auto;
   position: relative;
