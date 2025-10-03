@@ -1,6 +1,70 @@
 * {
   margin: 0;
+  padding: 0;
   font-family: sans-serif;
+}
+
+body {
+  background-color: #4a154b;
+}
+
+.navbar-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: auto;
+  padding: 11px 36px;
+}
+.navbar-primary {
+  display: flex;
+  padding: 10px;
+  height: 30px;
+  width: auto;
+  gap: 60px;
+}
+.fa-search {
+  color: white;
+}
+
+.fa-bars {
+  color: white;
+}
+
+.slacklogo {
+  display: flex;
+  height: 6vh;
+  min-height: 40px;
+  width: auto;
+  padding: 4px 0px 0px;
+}
+
+footer {
+  display: flex;
+  /* align-items: center; */
+  background-color: white;
+  border-top: 1px solid grey;
+  margin: 0 auto;
+  height: auto;
+}
+
+.slackicon {
+  display: flex;
+  height: 9vh;
+  min-height: 40px;
+  width: auto;
+}
+.footer-list {
+  display: flex;
+  flex-direction: row;
+}
+.footer-paragraph {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-size: 1rem;
 }
 
 .section-one {
