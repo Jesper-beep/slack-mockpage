@@ -25,6 +25,15 @@ body {
   width: auto;
   gap: 60px;
 }
+.talk-to-sales-btn{
+  display: none;
+}
+.create-new-workspace-btn{
+    display: none;
+  }
+.navbar-text{
+  display: none;
+}
 .fa-search {
   color: white;
 }
@@ -42,29 +51,8 @@ body {
 }
 
 footer {
-  display: flex;
-  /* align-items: center; */
-  background-color: #4a154b;
-  border-top: 1px solid grey;
-  margin: auto;
-  height: auto;
-}
-
-.slackicon {
-  display: flex;
-  height: 9vh;
-  min-height: 40px;
-  width: auto;
-}
-.footer-list {
-  display: flex;
-  flex-direction: row;
-}
-.footer-paragraph {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  font-size: 1rem;
+  display: none;
+  
 }
 
 .section-one {
@@ -77,6 +65,7 @@ footer {
   height: 600px;
   margin-bottom: 150px;
 }
+
 .header-box {
   display: flex;
   flex-direction: column;
@@ -94,7 +83,7 @@ h1 {
 }
 
 .header-paragraph {
-  background-color: #f9f0ff;
+  background-color: rgb(228, 207, 243);
   width: 100%;
   box-sizing: border-box;
   padding: 15px;
@@ -108,6 +97,14 @@ h1 {
   padding: 10px;
   padding-top: 15px;
   background-color: white;
+  justify-content: center;
+}
+
+.flex-column-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
 }
 
 .chas-academy-logo {
@@ -171,13 +168,18 @@ h1 {
   padding: 20px;
   color: rgb(0, 106, 255);
 }
+
+.see-more-a {
+  text-decoration: none;
+  color: rgb(0, 106, 255);
+} 
+
 .box-two {
   display: flex;
   flex-direction: column;
   margin-top: 80px;
   width: 500px;
-  border: 5px solid rgb(0, 106, 255 0,9);
-  border-radius: 7px;
+  border-radius: 10px;
   background-color: #ffffff;
   height: 230px;
 }
@@ -213,11 +215,141 @@ h1 {
   object-fit: cover;
   margin-top: auto;
   position: relative;
-  bottom: -32px;
+  bottom: -30px;
+}
+
+.section-one-end {
+  margin-top:50px;
+}
+
+.try-using-a-different-server {
+  color: rgb(0, 140, 255);
 }
 
 @media (min-width: 1000px) {
-  
 
+  .navbar-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: auto;
+  max-width: 1700px;
+  padding: 11px 36px;
+  margin: 0 auto;
+}
+.navbar-primary {
+  display: flex;
+  padding: 10px;
+  height: 30px;
+  width: auto;
+  gap: 60px;
+}
+
+.navbar-text{
+  color:white;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  font-size: 1.8vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  
+}
+.talk-to-sales-btn{
+  display:block;
+  height: 3vh;
+  width: 90px;
+  border: 1px solid white;
+  background-color: #4a154b;
+  color:white;
+  font-size: 1.2vh;
+  border-radius: 5px;
+  font-family: 'Arial';
+  font-weight: 600;
+  
+}
+.create-new-workspace-btn{
+  display: block;
+  height: 3vh;
+  width: 20vh;
+    background-color: white;
+    color: #4a154b;
+    font-weight: 600;
+    font-size: 1.2vh;
+    margin-left: -50px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+.search {
+  color: white;
+}
+
+.bars {
+  display:none;
+}
+
+.slacklogo {
+  display: flex;
+  height: 6vh;
+  min-height: 40px;
+  width: auto;
+  padding: 4px 0px 0px;
+}
+  
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #4a154b;
+    border-top: 1px solid grey;
+    margin: auto;
+    height: auto;
+  }
+
+  .footer-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  .create-new-workspace-btn{
+
+  }
+  .slackicon {
+    display: flex;
+    height: 5vh;
+    min-height: 40px;
+    width: auto;
+  }
+  .footer-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-paragraph {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1rem;
+  }
+
+  .launch-stack-button-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header-box {
+    width: 1000px;
+  }
+  
+  .flex-column-button {
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+  }
 
 }
