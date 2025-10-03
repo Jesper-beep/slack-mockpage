@@ -44,9 +44,9 @@ body {
 footer {
   display: flex;
   /* align-items: center; */
-  background-color: white;
+  background-color: #4a154b;
   border-top: 1px solid grey;
-  margin: 0 auto;
+  margin: auto;
   height: auto;
 }
 
@@ -74,6 +74,8 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #4a154b;
+  height: 600px;
+  margin-bottom: 150px;
 }
 .header-box {
   display: flex;
@@ -85,6 +87,7 @@ footer {
 }
 
 h1 {
+  display: flex;
   font-size: 32px;
   margin-bottom: 30px;
   color: white;
@@ -173,9 +176,10 @@ h1 {
   flex-direction: column;
   margin-top: 80px;
   width: 500px;
-  border-radius: 12px;
+  border: 5px solid rgb(0, 106, 255 0,9);
+  border-radius: 7px;
   background-color: #ffffff;
-  height: 300px;
+  height: 230px;
 }
 
 .box-two-paragraph {
@@ -190,10 +194,11 @@ h1 {
   width: 470px;
   height: 50px;
   font-size: 14px;
+  font-weight: bold;
   color: #4a154b;
   align-self: center;
   border-radius: 5px;
-  border: solid 1px #4a154b;
+  border: 2px solid #4b154c;
   cursor: pointer;
   background-color: white;
 }
@@ -205,7 +210,8 @@ h1 {
 
 .workspace-image {
   width: 200px;
-  height: 100px;
   object-fit: cover;
   margin-top: auto;
+  position: relative;
+  bottom: -32px;
 }
