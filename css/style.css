@@ -42,12 +42,33 @@ body{
 
 footer{
     display: flex;
-    
-    background-color: brown;
+    /* align-items: center; */
+    background-color: white;
     border-top: 1px solid grey;
     margin: 0 auto;
-    height: 400px;
+    height: auto;
+    
+    
 }
+
+.slackicon{
+    display: flex;
+    height: 9vh;
+    min-height: 40px;
+    width: auto;
+}
+.footer-list{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer-paragraph{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1rem;
+}
+
 
 
 
