@@ -250,7 +250,6 @@ h1 {
   object-fit: cover;
   margin-top: auto;
   position: relative;
-<<<<<<< HEAD
   bottom: -30px;
 }
 
@@ -353,9 +352,6 @@ h1 {
     align-items: center;
     gap: 20px;
   }
-  .create-new-workspace-btn{
-
-  }
   .slackicon {
     display: flex;
     height: 5vh;
@@ -389,7 +385,3 @@ h1 {
   }
 
 }
-=======
-  bottom: -32px;
-}
->>>>>>> 2af22035365199a04f96f37e48882bb222be94a6
